@@ -1,0 +1,154 @@
+body {
+    background-color: #f0f0f0;
+}
+
+.email-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.email-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.email-wrapper {
+    display: flex;
+}
+
+.email-sidebar {
+    flex: 1;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-right: 1px solid #ddd;
+}
+
+.email-sidebar h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.email-sidebar .list-group-item {
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.email-sidebar .list-group-item:hover {
+    background-color: #f1f3f5;
+}
+
+.email-content {
+    flex: 3;
+    padding: 20px;
+}
+
+.email-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.email-list-item {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.email-sender {
+    flex: 2;
+    font-weight: bold;
+}
+
+.email-subject {
+    flex: 5;
+    font-weight: bold;
+}
+
+.email-message-preview {
+    flex: 10;
+}
+
+.email-icons {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email-star-icon,
+.email-square-icon {
+    font-size: 18px;
+    color: #007bff;
+}
+
+.email-square-icon {
+    color: #ccc;
+}
+
+.email-date {
+    flex: 1;
+    text-align: right;
+}
+
+.email-header-container {
+    background-color: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.email-header-container h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.email-search-form {
+    flex: 1;
+}
+
+.email-search-input {
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    background-color: #f1f3f5;
+    outline: none;
+    font-size: 14px;
+}
+
+.email-search-button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 20px;
+    padding: 6px 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.email-dropdown-btn {
+    border: none;
+    background-color: transparent;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+.email-footer-container {
+    background-color: #fff;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
